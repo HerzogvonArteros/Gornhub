@@ -7,20 +7,22 @@
     <style>
         body {
             display: flex;
+            flex-direction: column; /* Elemente untereinander statt nebeneinander */
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
             font-size: 2rem;
             text-align: center;
+            padding: 20px; /* Abstand nach innen */
+            box-sizing: border-box; /* Verhindert Überlauf */
         }
     </style>
 </head>
 <body>
-    <p>Willkommen auf  </strong>Gornhub!</strong> </br></br></p>
-</br></br>
-    <img src="images/YatoChan.jpeg">
+    <strong>Willkommen auf Gornhub!</strong>
+    <img src="images/YatoChan.jpeg" alt="Bild von YatoChan" style="transform: scale(0.5);">
 </body>
 </html>
